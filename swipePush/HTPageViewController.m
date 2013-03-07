@@ -64,7 +64,8 @@
     self.baseScrollView.scrollEnabled = NO;
     
 }
-- (IBAction)backAction:(UIBarButtonItem *)sender
+
+- (IBAction)backAction
 {
     [self popCurrentViewOut];
 }
